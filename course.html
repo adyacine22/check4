@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> chekpoint 2 </title>
+    <link rel="stylesheet" type="text/css" href="../checking 2/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
+</head>
+
+<body>
+    <div>
+        <img src="https://gomycode.tn/images/section2GMCLogo.png" alt="logo go my code" id="go">
+    </div>
+    <center>
+
+        <div class=tt>
+            <a href="index.html" class="links"> HOME </a>
+
+            <a href="course.html" class="links"> COURSE </a>
+
+            <a href="contact.html" class="links"> CONTACT </a>
+        </div>
+        <div id="pic">
+            <h1 class="page"> COURSE </h1>
+        </div>
+
+        <div>
+            <div class="grp">
+                <div class="image pic1"><button class="btn1 B"><a href="#ex1" rel="modal:open">view more</a></button>
+                </div>
+                <div class="image pic2"><button class="btn2 B"><a href="#ex1" rel="modal:open">view more</a></button></div>
+                <div class="image pic3"><button class="btn3 B"><a href="#ex1" rel="modal:open">view more</a></button></div>
+            </div>
+            <div class="grp">
+                <div class="image pic4"><button class="btn4 B"><a href="#ex1" rel="modal:open">view more</a></button></div>
+                <div class="image pic5"><button class="btn5 B"><a href="#ex1" rel="modal:open">view more</a></button></div>
+                <div class="image pic6"><button class="btn6 B"><a href="#ex1" rel="modal:open">view more</a></button></div>
+            </div>
+            <div class="grp">
+                <div class="image pic7"><button class="btn7 B"><a href="#ex1" rel="modal:open">view more</a></button></div>
+                <div class="image pic8"><button class="btn8 B"><a href="#ex1" rel="modal:open">view more</a></button></div>
+                <div class="image pic9"><button class="btn9 B"><a href="#ex1" rel="modal:open">view more</a></button></div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h3 id="feed"> <b> FEEDBACK </b> </h3>
+        <br>
+        <button onclick="bolde()">B </button>
+        <button onclick="italic()"> I </button>
+        <button onclick="underlin()"> Underline </button>
+        <select onclick="handleSize()" id="sizeStyle">
+            <option> 20px </option>
+            <option> 30px </option>
+        </select>
+        <select onclick="police()" id="Police">
+            <option> Arial </option>
+            <option> Times New Roman </option>
+        </select>
+        <br>
+        <br>
+        <form>
+
+            <textarea id="textarea" cols="50" rows="5"></textarea>
+        </form>
+
+
+    </center>
+
+
+    <div id="ex1" class="modal">
+        <p>This is GoMyCode Track.
+            Each track has its own goal.
+            By adopting this track, you chose your own goal.</p>
+
+    </div>
+
+
+    <script src="../checking 2/main.js"></script>
+</body>
+
+
+</html>
